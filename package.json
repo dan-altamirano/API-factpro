@@ -1,0 +1,22 @@
+{
+  "name": "api-factpro",
+  "version": "0.0.1",
+  "description": "API factpro",
+  "main": "factpro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dan-altamirano/API-factpro.git"
+  },
+  "author": "Carlos Salas <carlos.salasdimas@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dan-altamirano/API-factpro/issues"
+  },
+  "homepage": "https://github.com/dan-altamirano/API-factpro#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
