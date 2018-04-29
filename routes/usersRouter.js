@@ -1,10 +1,5 @@
 const { Router } = require('express');
 const usersRouter = Router();
-const bodyParser = require('body-parser');
-
-// Use bodyParser middleware
-usersRouter.use(bodyParser.urlencoded({ extended: false}));
-usersRouter.use(bodyParser.json());
 
 usersRouter.get('/', (req, res) => {
   res.send('This is the list of all users');
@@ -18,6 +13,8 @@ usersRouter.put('/:userId', (req, res) => {
 usersRouter.post('/', (req, res) => {
   res.send(`Create a new user with the data ${req.body}`);
 });
-usersRouter.get('/', (req, res) => {
-  res.send('This is the list of all users');
+usersRouter.delete('/', (req, res) => {
+  res.send(`User ${req.params.userId} was deleted `);
 });
+
+module.exports = usersRouter;
