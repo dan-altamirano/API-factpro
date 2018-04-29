@@ -8,7 +8,7 @@ const productsRouter = require('./productsRouter');
 productsRouter.use(bodyParser.urlencoded({ extended: false}));
 productsRouter.use(bodyParser.json());
 
-router.get('/', (req, res) => res.send('You are at home!'));
+router.get('/', (req, res) => res.send('This is the home'));
 router.use('/users', usersRouter);
 router.use('/products', productsRouter);
 
