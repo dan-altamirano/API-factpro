@@ -13,7 +13,7 @@ usersRouter.put('/:userId', (req, res) => {
 usersRouter.post('/', (req, res) => {
   res.send(`Create a new user with the data ${req.body}`);
 });
-usersRouter.delete('/', (req, res) => {
+usersRouter.delete('/:userId', (req, res) => {
   res.send(`User ${req.params.userId} was deleted `);
 });
 

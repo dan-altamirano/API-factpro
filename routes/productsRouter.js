@@ -13,8 +13,8 @@ productsRouter.put('/:productId', (req, res) => {
 productsRouter.post('/', (req, res) => {
   res.send(`Create a new product with the data ${req.body}`);
 });
-productsRouter.delete('/', (req, res) => {
-  res.send(`User ${req.params.productId} was deleted `);
+productsRouter.delete('/:productId', (req, res) => {
+  res.send(`Product ${req.params.productId} was deleted `);
 });
 
 module.exports = productsRouter;
