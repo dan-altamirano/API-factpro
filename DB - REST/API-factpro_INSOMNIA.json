@@ -1,0 +1,1587 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2018-05-29T21:19:21.610Z",
+	"__export_source": "insomnia.desktop.app:v5.16.6",
+	"resources": [
+		{
+			"_id": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"created": 1526517073805,
+			"description": "",
+			"modified": 1526517073805,
+			"name": "API-factpro",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_76589d762b2542b386f67b88a9cda4a7",
+			"color": null,
+			"created": 1526517073835,
+			"data": {},
+			"isPrivate": false,
+			"modified": 1526517073835,
+			"name": "New Environment",
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_c9e0fc20f83e429586e4c1759aa00b5a",
+			"cookies": [],
+			"created": 1526517073838,
+			"modified": 1526517073838,
+			"name": "Default Jar",
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "req_1cb3a4bbb0e64312bfa7f0bb2196a136",
+			"authentication": {},
+			"body": {},
+			"created": 1526521344640,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1526537769444,
+			"method": "GET",
+			"modified": 1526561967106,
+			"name": "Pagina Principal",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com",
+			"_type": "request"
+		},
+		{
+			"_id": "req_62d6e3a760924c3485da3b7f0cbac5c0",
+			"authentication": {},
+			"body": {},
+			"created": 1526536988506,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1526537769394,
+			"method": "GET",
+			"modified": 1527627827125,
+			"name": "Get Usuario",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/usuario",
+			"_type": "request"
+		},
+		{
+			"_id": "req_25085a3fdcf244aca644c331ac0a157c",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_52bd4e562c8a41abae3d9841664c5255",
+						"name": "name",
+						"value": "asdsads"
+					},
+					{
+						"id": "pair_724e3b2fab3a48358f272e0389e47aba",
+						"name": "birthdate",
+						"value": "30/10/1986"
+					},
+					{
+						"id": "pair_38fed8357fd84a02ab036fc824f16ab7",
+						"name": "email",
+						"value": "yiyu@gmail.com"
+					},
+					{
+						"id": "pair_51ac3fa2cc0a4f7aad71faf3313f8653",
+						"name": "username",
+						"value": "iuyiutyu"
+					},
+					{
+						"id": "pair_a63b6f6e5dcd43428864ac689bba940e",
+						"name": "password",
+						"value": "12345678"
+					}
+				]
+			},
+			"created": 1526537060849,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4e4a678da696429da85092697ba270f7",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526537561777.1055,
+			"method": "POST",
+			"modified": 1527626547909,
+			"name": "Post Usuario",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/usuario",
+			"_type": "request"
+		},
+		{
+			"_id": "req_cb81ae95f47f4886b81eb866527f00d5",
+			"authentication": {},
+			"body": {},
+			"created": 1526537769344,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1526537769344,
+			"method": "GET",
+			"modified": 1527489608203,
+			"name": "Get Usuario - username",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/usuario/dan-altamirano",
+			"_type": "request"
+		},
+		{
+			"_id": "req_dfd90a503833442b9fd9d5c2652ad907",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"disabled": false,
+						"id": "pair_32a4b145d1554b51b203bfbd8668ce9e",
+						"name": "id",
+						"value": "4"
+					},
+					{
+						"id": "pair_52bd4e562c8a41abae3d9841664c5255",
+						"name": "name",
+						"value": "Carlos Salas"
+					},
+					{
+						"id": "pair_724e3b2fab3a48358f272e0389e47aba",
+						"name": "birthdate",
+						"value": "02/01/1997"
+					},
+					{
+						"id": "pair_38fed8357fd84a02ab036fc824f16ab7",
+						"name": "email",
+						"value": "carlos@gmail.com"
+					},
+					{
+						"id": "pair_51ac3fa2cc0a4f7aad71faf3313f8653",
+						"name": "username",
+						"value": "carlos.salas"
+					},
+					{
+						"id": "pair_a63b6f6e5dcd43428864ac689bba940e",
+						"name": "password",
+						"value": "123456789"
+					}
+				]
+			},
+			"created": 1526537854104,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4e4a678da696429da85092697ba270f7",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526537553474.4297,
+			"method": "PUT",
+			"modified": 1527626575573,
+			"name": "Edit Usuario",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/usuario",
+			"_type": "request"
+		},
+		{
+			"_id": "req_2358f75c30be45bfa7527b818d16b078",
+			"authentication": {},
+			"body": {},
+			"created": 1526561751516,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1526537549323.0918,
+			"method": "GET",
+			"modified": 1527627820150,
+			"name": "Get Compra",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/compra",
+			"_type": "request"
+		},
+		{
+			"_id": "req_1b763124ff6249508dc1b0f2d3155b66",
+			"authentication": {},
+			"body": {},
+			"created": 1526561864194,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1526537548631.2021,
+			"method": "GET",
+			"modified": 1527627817864,
+			"name": "Get Compra - ID",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/compra/2",
+			"_type": "request"
+		},
+		{
+			"_id": "req_8936cdb436104a38854a3e210bbcbf43",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_724e3b2fab3a48358f272e0389e47aba",
+						"name": "department",
+						"value": "departanento"
+					},
+					{
+						"id": "pair_38fed8357fd84a02ab036fc824f16ab7",
+						"name": "productname",
+						"value": "producto 2"
+					},
+					{
+						"id": "pair_51ac3fa2cc0a4f7aad71faf3313f8653",
+						"name": "orderdate",
+						"value": "12/05/2017"
+					},
+					{
+						"id": "pair_a63b6f6e5dcd43428864ac689bba940e",
+						"name": "deliverydate",
+						"value": "17/05/2017"
+					},
+					{
+						"id": "pair_851b71b6e06c4f9180ddd7e3d64c9690",
+						"name": "quantity",
+						"value": "88"
+					},
+					{
+						"id": "pair_0770a3951a0b4a71a8d56d60404ed2aa",
+						"name": "unitprice",
+						"value": "10"
+					},
+					{
+						"id": "pair_8456d8945cbc4d1d89cfbce7775dd371",
+						"name": "totalprice",
+						"value": "880"
+					}
+				]
+			},
+			"created": 1526561912745,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4e4a678da696429da85092697ba270f7",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526537548285.2573,
+			"method": "POST",
+			"modified": 1527626821140,
+			"name": "Post Compra",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/compra",
+			"_type": "request"
+		},
+		{
+			"_id": "req_9cfae55823ec4aa48b5212eb8f968e50",
+			"authentication": {},
+			"body": {},
+			"created": 1527464022148,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1526537570079.7812,
+			"method": "GET",
+			"modified": 1527626346328,
+			"name": "Get Usuario - ID",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/usuario/id/1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_f8dc9b14a50640fcaf24e3da5f21d878",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": []
+			},
+			"created": 1527471033034,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_fe4133b5a881404d85ba6d98981307bc",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526537498815.1475,
+			"method": "GET",
+			"modified": 1527627790436,
+			"name": "Get Inventario",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/inventario",
+			"_type": "request"
+		},
+		{
+			"_id": "req_57c80134182b43f1a2e839796eb7c03e",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_32a4b145d1554b51b203bfbd8668ce9e",
+						"name": "id",
+						"value": "3"
+					}
+				]
+			},
+			"created": 1527482285132,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4e4a678da696429da85092697ba270f7",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526537550706.871,
+			"method": "DELETE",
+			"modified": 1527626656985,
+			"name": "Delete Usuario",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/usuario",
+			"_type": "request"
+		},
+		{
+			"_id": "req_17255dcbf9d64af792b91935005e4950",
+			"authentication": {},
+			"body": {},
+			"created": 1527490513464,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1526537592220.25,
+			"method": "GET",
+			"modified": 1527626209567,
+			"name": "Get Usuario - username/password",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/usuario/dan-altamirano/5f4dcc3b5aa765d61d8327deb882cf99",
+			"_type": "request"
+		},
+		{
+			"_id": "req_ad1064e32e174e4b874e237aeb6e25c6",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_b29f3e8af6814379a834928096407ec4",
+						"name": "sku",
+						"value": "AZSXDCFVGB"
+					},
+					{
+						"id": "pair_54270a7863584a589b8cd0632964d56f",
+						"name": "description",
+						"value": "Descripcion"
+					},
+					{
+						"id": "pair_77e538df93de4bfca722b8088cb3f97b",
+						"name": "dateinventory",
+						"value": "12/12/2012"
+					},
+					{
+						"id": "pair_00b5ead4236a4a4daf97225de136af3a",
+						"name": "status",
+						"value": "Finalizado"
+					},
+					{
+						"id": "pair_265c58dc22a745a5a92ac8149df9ac1f",
+						"name": "balance",
+						"value": "100"
+					}
+				]
+			},
+			"created": 1527565062209,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_8e01833b5e76476ea91faa35139f7eaf",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526537498123.2578,
+			"method": "POST",
+			"modified": 1527627689769,
+			"name": "Post Inventario",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/inventario",
+			"_type": "request"
+		},
+		{
+			"_id": "req_04fe3171abd94704afd24d644e18b281",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_9e74787b846649688e5b6edff7cfbdb7",
+						"name": "id",
+						"value": "8"
+					}
+				]
+			},
+			"created": 1527565173261,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_32717000ce9643408bd0dfa30032c296",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526537492588.1406,
+			"method": "DELETE",
+			"modified": 1527626162271,
+			"name": "Del Inventario",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/inventario",
+			"_type": "request"
+		},
+		{
+			"_id": "req_5b54760b62ec46e992a5bce7b2f75e9d",
+			"authentication": {},
+			"body": {},
+			"created": 1527575273014,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1526537547939.3125,
+			"method": "GET",
+			"modified": 1527627801596,
+			"name": "Get Producto - ID",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/producto/3",
+			"_type": "request"
+		},
+		{
+			"_id": "req_1c60c35e27864d66a51578fc8063de2b",
+			"authentication": {},
+			"body": {},
+			"created": 1527575324597,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1526537481517.9062,
+			"method": "GET",
+			"modified": 1527627762161,
+			"name": "Get Stock",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/stock",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e105a79baef04d42b76d0a272f78c47c",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_e2dd132646ad421a82d97c46e435982c",
+						"name": "sku",
+						"value": "AZSCDFERDSD"
+					},
+					{
+						"id": "pair_3e395f959c574bc7858fd7506e958273",
+						"name": "name",
+						"value": "Copsi"
+					},
+					{
+						"id": "pair_94404a7957d94f54a74ea4cc97f96e4b",
+						"name": "price",
+						"value": "20"
+					},
+					{
+						"id": "pair_104974ef275f4ea8923e40df72bc6cef",
+						"name": "quantity",
+						"value": "100"
+					},
+					{
+						"id": "pair_3839cb6fd06f4dd8bb8129574df5443d",
+						"name": "",
+						"value": ""
+					}
+				]
+			},
+			"created": 1527578582098,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_5a47c4cd702a4443b5d165bde8c1b795",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526537503658.375,
+			"method": "POST",
+			"modified": 1527627508969,
+			"name": "Post Producto",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/producto",
+			"_type": "request"
+		},
+		{
+			"_id": "req_530302886cac4f22bac3e30dee2ea401",
+			"authentication": {},
+			"body": {},
+			"created": 1527578885185,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1526537547942.0151,
+			"method": "GET",
+			"modified": 1527627807039,
+			"name": "Get Producto",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/producto",
+			"_type": "request"
+		},
+		{
+			"_id": "req_fc3ac586ad9b4a5ca2eef9288eefe7ff",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_21c513c1d60b437b90f301d1946f2c20",
+						"name": "id",
+						"value": "2"
+					},
+					{
+						"id": "pair_724e3b2fab3a48358f272e0389e47aba",
+						"name": "department",
+						"value": "departanento"
+					},
+					{
+						"id": "pair_38fed8357fd84a02ab036fc824f16ab7",
+						"name": "productname",
+						"value": "producto 2"
+					},
+					{
+						"id": "pair_51ac3fa2cc0a4f7aad71faf3313f8653",
+						"name": "orderdate",
+						"value": "12/05/2017"
+					},
+					{
+						"id": "pair_a63b6f6e5dcd43428864ac689bba940e",
+						"name": "deliverydate",
+						"value": "17/05/2017"
+					},
+					{
+						"id": "pair_851b71b6e06c4f9180ddd7e3d64c9690",
+						"name": "quantity",
+						"value": "80"
+					},
+					{
+						"id": "pair_0770a3951a0b4a71a8d56d60404ed2aa",
+						"name": "unitprice",
+						"value": "10"
+					},
+					{
+						"id": "pair_8456d8945cbc4d1d89cfbce7775dd371",
+						"name": "totalprice",
+						"value": "800"
+					}
+				]
+			},
+			"created": 1527626850091,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4e4a678da696429da85092697ba270f7",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526537548112.285,
+			"method": "PUT",
+			"modified": 1527626943963,
+			"name": "Edit Compra",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/compra",
+			"_type": "request"
+		},
+		{
+			"_id": "req_139b567f78dc4f87ad80b75951f8a82f",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_21c513c1d60b437b90f301d1946f2c20",
+						"name": "id",
+						"value": "2"
+					}
+				]
+			},
+			"created": 1527626886989,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4e4a678da696429da85092697ba270f7",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526537548025.7988,
+			"method": "DELETE",
+			"modified": 1527626925430,
+			"name": "Delete Compra",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/compra",
+			"_type": "request"
+		},
+		{
+			"_id": "req_188458f7d32d4bd4b48f040c3403d90f",
+			"authentication": {},
+			"body": {},
+			"created": 1527626991125,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1526537547982.5557,
+			"method": "GET",
+			"modified": 1527627813312,
+			"name": "Get Factura",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/factura",
+			"_type": "request"
+		},
+		{
+			"_id": "req_cea2c414266b4476aaf44d6b7d4f2222",
+			"authentication": {},
+			"body": {},
+			"created": 1527627022892,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1526537547960.934,
+			"method": "GET",
+			"modified": 1527627810709,
+			"name": "Get Factura - ID",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/factura/2",
+			"_type": "request"
+		},
+		{
+			"_id": "req_40db6129dc4641bb9c3799f8e12b0cab",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_724e3b2fab3a48358f272e0389e47aba",
+						"name": "clientname",
+						"value": "lucy lawless"
+					},
+					{
+						"id": "pair_38fed8357fd84a02ab036fc824f16ab7",
+						"name": "street",
+						"value": "street 1"
+					},
+					{
+						"id": "pair_51ac3fa2cc0a4f7aad71faf3313f8653",
+						"name": "community",
+						"value": "colonia"
+					},
+					{
+						"id": "pair_a63b6f6e5dcd43428864ac689bba940e",
+						"name": "state",
+						"value": "gdl, jalisco"
+					},
+					{
+						"id": "pair_851b71b6e06c4f9180ddd7e3d64c9690",
+						"name": "zipcode",
+						"value": "441111"
+					},
+					{
+						"id": "pair_0770a3951a0b4a71a8d56d60404ed2aa",
+						"name": "rfc",
+						"value": "azsxdcfvgbhn"
+					},
+					{
+						"id": "pair_8456d8945cbc4d1d89cfbce7775dd371",
+						"name": "ordernum",
+						"value": "880"
+					},
+					{
+						"id": "pair_9a07ae769edc4b3cb775d024fb19b6f7",
+						"name": "invoicedate",
+						"value": "11/11/2011"
+					},
+					{
+						"id": "pair_4ade9c1320f146388482f932627b1606",
+						"name": "concept",
+						"value": "concepto"
+					},
+					{
+						"id": "pair_33d3ee94936748ad97b3b193e19745a7",
+						"name": "payment",
+						"value": "efectivo"
+					},
+					{
+						"id": "pair_5f2bc4bc23d34943b08d9163b16f8250",
+						"name": "iva",
+						"value": "16"
+					},
+					{
+						"id": "pair_3bfe8e97cea84a309c9dbdaabdd7bfa7",
+						"name": "totalprice",
+						"value": "1200"
+					}
+				]
+			},
+			"created": 1527627049215,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4e4a678da696429da85092697ba270f7",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526537547950.1233,
+			"method": "POST",
+			"modified": 1527627354486,
+			"name": "Post Factura",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/factura",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e5c16ba8fa35447d976a2e12f4524edc",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_21c513c1d60b437b90f301d1946f2c20",
+						"name": "id",
+						"value": "1"
+					}
+				]
+			},
+			"created": 1527627054464,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4e4a678da696429da85092697ba270f7",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526537547944.7178,
+			"method": "DELETE",
+			"modified": 1527627438590,
+			"name": "Delete Factura",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/compra",
+			"_type": "request"
+		},
+		{
+			"_id": "req_cf5cd1cf079f4093ade6229395728ce1",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_fc7e35aea6914423bd8e76440d73993c",
+						"name": "id",
+						"value": "2"
+					},
+					{
+						"id": "pair_724e3b2fab3a48358f272e0389e47aba",
+						"name": "clientname",
+						"value": "lucy lawless"
+					},
+					{
+						"id": "pair_38fed8357fd84a02ab036fc824f16ab7",
+						"name": "street",
+						"value": "street 1"
+					},
+					{
+						"id": "pair_51ac3fa2cc0a4f7aad71faf3313f8653",
+						"name": "community",
+						"value": "colonia"
+					},
+					{
+						"id": "pair_a63b6f6e5dcd43428864ac689bba940e",
+						"name": "state",
+						"value": "Guadalajara, Jalisco"
+					},
+					{
+						"id": "pair_851b71b6e06c4f9180ddd7e3d64c9690",
+						"name": "zipcode",
+						"value": "441111"
+					},
+					{
+						"id": "pair_0770a3951a0b4a71a8d56d60404ed2aa",
+						"name": "rfc",
+						"value": "azsxdcfvgbhn"
+					},
+					{
+						"id": "pair_8456d8945cbc4d1d89cfbce7775dd371",
+						"name": "ordernum",
+						"value": "880"
+					},
+					{
+						"id": "pair_9a07ae769edc4b3cb775d024fb19b6f7",
+						"name": "invoicedate",
+						"value": "11/11/2011"
+					},
+					{
+						"id": "pair_4ade9c1320f146388482f932627b1606",
+						"name": "concept",
+						"value": "concepto"
+					},
+					{
+						"id": "pair_33d3ee94936748ad97b3b193e19745a7",
+						"name": "payment",
+						"value": "efectivo"
+					},
+					{
+						"id": "pair_5f2bc4bc23d34943b08d9163b16f8250",
+						"name": "iva",
+						"value": "16"
+					},
+					{
+						"id": "pair_3bfe8e97cea84a309c9dbdaabdd7bfa7",
+						"name": "totalprice",
+						"value": "1200"
+					}
+				]
+			},
+			"created": 1527627371064,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4e4a678da696429da85092697ba270f7",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526537547947.4204,
+			"method": "PUT",
+			"modified": 1527627412815,
+			"name": "Post Factura",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/factura",
+			"_type": "request"
+		},
+		{
+			"_id": "req_7053a0138ee741d5840d8da7d3f7eb39",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_3839cb6fd06f4dd8bb8129574df5443d",
+						"name": "id",
+						"value": "3"
+					},
+					{
+						"id": "pair_e2dd132646ad421a82d97c46e435982c",
+						"name": "sku",
+						"value": "AZSCDFERDSD"
+					},
+					{
+						"id": "pair_3e395f959c574bc7858fd7506e958273",
+						"name": "name",
+						"value": "Copsi"
+					},
+					{
+						"id": "pair_94404a7957d94f54a74ea4cc97f96e4b",
+						"name": "price",
+						"value": "10"
+					},
+					{
+						"id": "pair_104974ef275f4ea8923e40df72bc6cef",
+						"name": "quantity",
+						"value": "100"
+					}
+				]
+			},
+			"created": 1527627526472,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_5a47c4cd702a4443b5d165bde8c1b795",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526537500890.8164,
+			"method": "PUT",
+			"modified": 1527627584629,
+			"name": "Edit Producto",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/producto",
+			"_type": "request"
+		},
+		{
+			"_id": "req_ca126910e2ad46bca303bf6a5374df70",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_3839cb6fd06f4dd8bb8129574df5443d",
+						"name": "id",
+						"value": "3"
+					}
+				]
+			},
+			"created": 1527627527822,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_5a47c4cd702a4443b5d165bde8c1b795",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526537499507.037,
+			"method": "DELETE",
+			"modified": 1527627565116,
+			"name": "Delete Producto",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/producto",
+			"_type": "request"
+		},
+		{
+			"_id": "req_5b536fa9c2674e3fb55b0fafc8582d8f",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": []
+			},
+			"created": 1527627634975,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_fe4133b5a881404d85ba6d98981307bc",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526537498469.2026,
+			"method": "GET",
+			"modified": 1527627793710,
+			"name": "Get Inventario - ID",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/inventario/3",
+			"_type": "request"
+		},
+		{
+			"_id": "req_12e1d22b7940483485a02ba3155b3b8e",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_74ad81615e0545ed99ee5f2886ec7e93",
+						"name": "id",
+						"value": "14"
+					},
+					{
+						"id": "pair_b29f3e8af6814379a834928096407ec4",
+						"name": "sku",
+						"value": "AZSXDCFVZZ"
+					},
+					{
+						"id": "pair_54270a7863584a589b8cd0632964d56f",
+						"name": "description",
+						"value": "Descripcion"
+					},
+					{
+						"id": "pair_77e538df93de4bfca722b8088cb3f97b",
+						"name": "dateinventory",
+						"value": "12/12/2012"
+					},
+					{
+						"id": "pair_00b5ead4236a4a4daf97225de136af3a",
+						"name": "status",
+						"value": "Finalizado"
+					},
+					{
+						"id": "pair_265c58dc22a745a5a92ac8149df9ac1f",
+						"name": "balance",
+						"value": "100"
+					}
+				]
+			},
+			"created": 1527627697805,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_8e01833b5e76476ea91faa35139f7eaf",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526537495355.6992,
+			"method": "PUT",
+			"modified": 1527627719832,
+			"name": "Edit Inventario",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/inventario",
+			"_type": "request"
+		},
+		{
+			"_id": "req_4bcf5a5776024dff9a4679ea41a5e326",
+			"authentication": {},
+			"body": {},
+			"created": 1527627771027,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1526526639248.9531,
+			"method": "GET",
+			"modified": 1527628130583,
+			"name": "Get Stock - ID",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/stock/1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_7d849374a8bd439aa3be099ccafacc25",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_b29f3e8af6814379a834928096407ec4",
+						"name": "id",
+						"value": "1"
+					},
+					{
+						"id": "pair_54270a7863584a589b8cd0632964d56f",
+						"name": "id_prod",
+						"value": "2"
+					},
+					{
+						"id": "pair_77e538df93de4bfca722b8088cb3f97b",
+						"name": "disp",
+						"value": "20"
+					},
+					{
+						"id": "pair_00b5ead4236a4a4daf97225de136af3a",
+						"name": "exist",
+						"value": "1"
+					}
+				]
+			},
+			"created": 1527628021195,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_8e01833b5e76476ea91faa35139f7eaf",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526526639198.9531,
+			"method": "POST",
+			"modified": 1527628113034,
+			"name": "Post Stock",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/stock",
+			"_type": "request"
+		},
+		{
+			"_id": "req_6b27a01fe5cb47eb84577b3a9aabe26d",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_b29f3e8af6814379a834928096407ec4",
+						"name": "id",
+						"value": "1"
+					},
+					{
+						"id": "pair_54270a7863584a589b8cd0632964d56f",
+						"name": "id_prod",
+						"value": "2"
+					},
+					{
+						"id": "pair_77e538df93de4bfca722b8088cb3f97b",
+						"name": "disp",
+						"value": "20"
+					},
+					{
+						"id": "pair_00b5ead4236a4a4daf97225de136af3a",
+						"name": "exist",
+						"value": "1"
+					}
+				]
+			},
+			"created": 1527628156065,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_8e01833b5e76476ea91faa35139f7eaf",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526521218089.4766,
+			"method": "PUT",
+			"modified": 1527628173683,
+			"name": "Edit Stock",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/stock",
+			"_type": "request"
+		},
+		{
+			"_id": "req_16eb6bd854a8479ebbd9a5cc4f103c28",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_b29f3e8af6814379a834928096407ec4",
+						"name": "id",
+						"value": "1"
+					}
+				]
+			},
+			"created": 1527628175711,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_8e01833b5e76476ea91faa35139f7eaf",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526518507534.7383,
+			"method": "DELETE",
+			"modified": 1527628203552,
+			"name": "Delete Stock",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/stock",
+			"_type": "request"
+		},
+		{
+			"_id": "req_557afa24b1724b2b8b5afac729a57d83",
+			"authentication": {},
+			"body": {},
+			"created": 1527628222461,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1526518507484.7383,
+			"method": "GET",
+			"modified": 1527628275535,
+			"name": "Get Payment",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/pagos",
+			"_type": "request"
+		},
+		{
+			"_id": "req_d3a61a0ffe8c45fab36cf9be89172c01",
+			"authentication": {},
+			"body": {},
+			"created": 1527628290330,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1526517152232.3691,
+			"method": "GET",
+			"modified": 1527628301245,
+			"name": "Get Payment - ID",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/pagos/1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_f1743bd9d0c6490b90c8d303068d6727",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_486ccafb779844a4b26e443a5f6183a3",
+						"name": "payment",
+						"value": "500"
+					},
+					{
+						"id": "pair_10761c9decbf417da93625f3e1c2116c",
+						"name": "referencenum",
+						"value": "001"
+					},
+					{
+						"id": "pair_10b088d77e5544848749efcc38a46865",
+						"name": "suplier",
+						"value": "proveedor"
+					},
+					{
+						"id": "pair_1476c4fa3bfa41d7a44e07d1baacebdb",
+						"name": "paymentdate",
+						"value": "10/10/2010"
+					},
+					{
+						"id": "pair_4fa498e791c640558f931e5158cde919",
+						"name": "ammount",
+						"value": "500"
+					}
+				]
+			},
+			"created": 1527628320699,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_68715b9e84be440ca315a47b82565a2e",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526517152182.3691,
+			"method": "POST",
+			"modified": 1527628643324,
+			"name": "Post Payment",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/pagos",
+			"_type": "request"
+		},
+		{
+			"_id": "req_675896256e3f4d3385a928b483d0490e",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_486ccafb779844a4b26e443a5f6183a3",
+						"name": "payment",
+						"value": "500"
+					},
+					{
+						"id": "pair_10761c9decbf417da93625f3e1c2116c",
+						"name": "referencenum",
+						"value": "001"
+					},
+					{
+						"id": "pair_10b088d77e5544848749efcc38a46865",
+						"name": "suplier",
+						"value": "proveedor"
+					},
+					{
+						"id": "pair_1476c4fa3bfa41d7a44e07d1baacebdb",
+						"name": "paymentdate",
+						"value": "10/10/2010"
+					},
+					{
+						"id": "pair_4fa498e791c640558f931e5158cde919",
+						"name": "ammount",
+						"value": "500"
+					}
+				]
+			},
+			"created": 1527628668048,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_68715b9e84be440ca315a47b82565a2e",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526516474581.1846,
+			"method": "PUT",
+			"modified": 1527628678906,
+			"name": "Edit Payment",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/pagos",
+			"_type": "request"
+		},
+		{
+			"_id": "req_0d4cedc7c35b463c8d4fe915916884a5",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_ba84bddb41b341baae30c6f2ebecd95e",
+						"name": "id",
+						"value": "1"
+					}
+				]
+			},
+			"created": 1527628680972,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_68715b9e84be440ca315a47b82565a2e",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1526516135780.5923,
+			"method": "DELETE",
+			"modified": 1527628694529,
+			"name": "Edit Payment (Copy)",
+			"parameters": [],
+			"parentId": "wrk_9a592f8b11c748729bc11a90489f86fb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://factpro-api.herokuapp.com/pagos",
+			"_type": "request"
+		}
+	]
+}
